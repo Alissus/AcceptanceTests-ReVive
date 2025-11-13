@@ -16,7 +16,7 @@ Feature: HU04 - Gestión de campañas donativas
     Then el sistema no permitirá continuar y mostrará mensajes de error específicos junto a los campos que deben corregirse o completarse. 
 
     Example: 
-        | Campo obligatorio          | Error mostrado                          |
-        | Institución                | "El nombre de la institución es obligatorio." |
-        | Objetivo de la campaña     | "El objetivo de la campaña no puede estar vacío." |
-        | Tipos de donativos requeridos | "Debe seleccionar al menos un tipo de donativo." |
+        | Campo obligatorio             | Error mostrado                                    |
+        | Institución                   | "El nombre de la institución es obligatorio."     |
+        | Objetivo de la campaña        | "El objetivo de la campaña no puede estar vacío." |
+        | Tipos de donativos requeridos | "Debe seleccionar al menos un tipo de donativo."  |
