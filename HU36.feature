@@ -16,7 +16,7 @@ Feature: HU36 - Swipe para intercambio
     Then el objeto se descarta temporalmente y no vuelve a aparecer en mi pila de tarjetas. 
 
     Example: 
-        | Usuario      | Objeto deslizado               | Acción realizada                          |
+        | Usuario      | Objeto deslizado               | Acción realizada                         |
         | Juan Pérez   | Silla de oficina               | Objeto descartado temporalmente          |
         | María Gómez  | Mesa de comedor                | Objeto descartado temporalmente          |
         | Carlos Ruiz  | Lámpara de pie                 | Objeto descartado temporalmente          |

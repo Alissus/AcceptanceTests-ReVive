@@ -5,7 +5,7 @@ Feature: HU28 - Reporte de contenido
     Then el sistema envía la alerta al equipo de revisión. 
 
     Example: 
-        | Usuario      | Publicación visualizada       | Tipo de reporte          | Confirmación mostrada                     |
+        | Usuario      | Publicación visualizada       | Tipo de reporte          | Confirmación mostrada                    |
         | Juan Pérez   | Artículo inapropiado          | Contenido ofensivo       | "Reporte enviado al equipo de revisión"  |
         | María Gómez  | Foto con spam                 | Spam                     | "Reporte enviado al equipo de revisión"  |
         | Carlos Ruiz  | Comentario abusivo            | Abuso verbal             | "Reporte enviado al equipo de revisión"  |
@@ -16,7 +16,7 @@ Feature: HU28 - Reporte de contenido
     Then se muestra un mensaje confirmando que fue recibido. 
 
     Example: 
-        | Usuario      | Publicación visualizada       | Tipo de reporte          | Mensaje mostrado                          |
+        | Usuario      | Publicación visualizada       | Tipo de reporte          | Mensaje mostrado                         |
         | Juan Pérez   | Artículo inapropiado          | Contenido ofensivo       | "Tu reporte ha sido recibido. Gracias."  |
         | María Gómez  | Foto con spam                 | Spam                     | "Tu reporte ha sido recibido. Gracias."  |
         | Carlos Ruiz  | Comentario abusivo            | Abuso verbal             | "Tu reporte ha sido recibido. Gracias."  |

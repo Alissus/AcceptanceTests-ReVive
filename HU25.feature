@@ -16,7 +16,7 @@ Feature: HU25 - Dashboard de impacto con estadísticas personalizadas y logros a
     Then se muestran indicadores estimados como “kg de residuos evitados” o “emisiones reducidas”. 
 
     Example: 
-        | Usuario      | Artículos donados | Tipo de material    | Peso total (kg) | Indicadores mostrados                          |
+        | Usuario      | Artículos donados | Tipo de material   | Peso total (kg) | Indicadores mostrados                          |
         | Juan Pérez   | 15                | Plástico           | 10              | "10 kg de residuos evitados, 25 kg CO2 reducidos"|
         | María Gómez  | 8                 | Papel              | 5               | "5 kg de residuos evitados, 12 kg CO2 reducidos" |
         | Carlos Ruiz  | 20                | Vidrio             | 15              | "15 kg de residuos evitados, 35 kg CO2 reducidos"|
@@ -27,7 +27,7 @@ Feature: HU25 - Dashboard de impacto con estadísticas personalizadas y logros a
     Then el sistema otorga insignias o reconocimientos visibles en su perfil
 
     Example: 
-        | Usuario      | Hito alcanzado          | Logro desbloqueado                      |
+        | Usuario      | Hito alcanzado          | Logro desbloqueado                     |
         | Juan Pérez   | 10 donaciones           | "Insignia de Donador Comprometido"     |
         | María Gómez  | 5 trueques              | "Insignia de Trueque Experto"          |
         | Carlos Ruiz  | 20 kg reciclados        | "Insignia de Eco-Guerrero"             |
