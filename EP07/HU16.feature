@@ -16,7 +16,7 @@ Feature: HU16 - Chat interno
     Then se muestra una notificación en la app
 
     Example: 
-        | Usuario      | Mensaje recibido                     | Notificación mostrada                  |
+        | Usuario      | Mensaje recibido                    | Notificación mostrada                  |
         | Juan Pérez   | "¿Cuándo podemos hacer el trueque?" | "Nuevo mensaje de María Gómez"         |
         | María Gómez  | "¿Dónde nos encontramos?"           | "Nuevo mensaje de Carlos Ruiz"         |
         | Carlos Ruiz  | "¿Traes el artículo mañana?"        | "Nuevo mensaje de Ana López"           |

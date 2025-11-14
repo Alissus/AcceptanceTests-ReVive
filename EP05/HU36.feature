@@ -5,10 +5,10 @@ Feature: HU36 - Swipe para intercambio
     Then el usuario se dirige a un chat con el dueño del objeto 
 
     Example: 
-        | Usuario      | Objeto deslizado               | Acción realizada                          |
-        | Juan Pérez   | Silla de oficina               | Redirigido al chat con el dueño del objeto|
-        | María Gómez  | Mesa de comedor                | Redirigido al chat con el dueño del objeto|
-        | Carlos Ruiz  | Lámpara de pie                 | Redirigido al chat con el dueño del objeto|
+        | Usuario      | Objeto deslizado               | Acción realizada                           |
+        | Juan Pérez   | Silla de oficina               | Redirigido al chat con el dueño del objeto |
+        | María Gómez  | Mesa de comedor                | Redirigido al chat con el dueño del objeto |
+        | Carlos Ruiz  | Lámpara de pie                 | Redirigido al chat con el dueño del objeto |
 
     Scenario: Rechazo por desinterés 
     Given que estoy en la vista swipe, 
@@ -20,3 +20,4 @@ Feature: HU36 - Swipe para intercambio
         | Juan Pérez   | Silla de oficina               | Objeto descartado temporalmente          |
         | María Gómez  | Mesa de comedor                | Objeto descartado temporalmente          |
         | Carlos Ruiz  | Lámpara de pie                 | Objeto descartado temporalmente          |
+
